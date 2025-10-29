@@ -1,0 +1,9 @@
+*{box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body{background:#f4f6f8;padding:20px}
+.container{max-width:720px;margin:0 auto;background:#fff;padding:18px;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.06)}
+#chat{height:360px;overflow:auto;border:1px solid #e6e9ee;padding:8px;border-radius:6px;background:#fafbfc}
+#messages{list-style:none;margin:0;padding:0}
+#messages li{padding:6px 8px;margin-bottom:6px;background:#eef2ff;border-radius:6px}
+form{display:flex;gap:8px;margin-top:12px}
+input#input{flex:1;padding:10px;border:1px solid #dde6f0;border-radius:6px}
+button{padding:10px 14px;border:none;background:#3b82f6;color:white;border-radius:6px;cursor:pointer}
